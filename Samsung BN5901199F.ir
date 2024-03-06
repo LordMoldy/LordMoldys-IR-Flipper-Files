@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: PWR
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+# 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1A 00 00 00
+# 
+name: Vol Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 07 00 00 00
+# 
+name: Vol Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+# 
+name: Chan Up
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 12 00 00 00
+# 
+name: Chan Down
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
